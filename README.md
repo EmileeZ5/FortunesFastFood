@@ -12,9 +12,32 @@ Built by **Emilee Zhang** and **Nevetha Arullinkam** (May to June 2025).
 3. **Assemble.** Stack the toppings in the right order with a timing minigame.
 4. **Pour drinks.** Fill cups for orders that need one.
 5. **Hand it in.** Your tip depends on how accurate the burger and drink are and how fast you were, with a time bonus only for good orders, so rushing a bad burger doesn't pay.
-6. **Upgrade.** Spend your earnings between days on upgrades and work toward a promotion.
+6. **Upgrade.** Between days, spend your earnings on upgrades such as a bus pass, a cooking class or an etiquette course. Each one boosts your tip multiplier, from 5% up to 30%. Save up for the final $1000 upgrade, a scooter that gets you promoted to delivery and ends the game.
 
 A built-in tutorial walks new players through the first order.
+
+## Screenshots
+
+**Taking orders, with the built-in tutorial**
+![Order station](screenshots/gameplay.png)
+
+**Drink station**
+![Drink station](screenshots/drinks.png)
+
+**Cook station**
+![Cook station](screenshots/cooking.png)
+
+**Building the burger** (a timing minigame for stacking toppings)
+![Build station](screenshots/building.png)
+
+**Upgrades between days**
+![Upgrades](screenshots/upgrades.png)
+
+**The final upgrade: buy the scooter and get promoted to delivery**
+![Promotion](screenshots/promotion.png)
+
+**The ending: you've been promoted!**
+![Ending](screenshots/ending.png)
 
 ## Under the hood
 About 3,000 lines of Java across 18 classes, with the game loop on its own thread:
