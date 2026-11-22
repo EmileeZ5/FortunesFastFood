@@ -30,7 +30,7 @@ About 3,000 lines of Java across 18 classes, with the game loop on its own threa
 Scoring is calculated in `Order.java`: topping placement and count, how well the meat is cooked, whether the drink is right, and the time taken.
 
 ## Run it
-Requires Java (JDK 8 or newer). From the project folder (the one containing the images and `src`):
+Requires Java (JDK 8 or newer) and a screen at least **1440 × 900** pixels, since the game window has a fixed size and can't be resized. On a smaller screen, parts of the game will be cut off. From the project folder (the one containing the images and `src`):
 
 ```bash
 javac -d bin src/*.java
@@ -40,6 +40,6 @@ java -cp bin FortuneFastFood
 The images and sounds load by relative path, so run these from the project's top-level folder. On Windows you can also double-click `runMe.bat`.
 
 ## Credits
-Made by Emilee Zhang and Nevetha Arullinkam. We wrote all the code ourselves and drew all the artwork by hand. Inspired by *Papa's Pizzeria*.
+Made by Emilee Zhang and Nevetha Arullinkam. We wrote the game ourselves and drew all the artwork by hand. The only outside help in the code is the looping-music logic in `Sound.java`, adapted from a YouTube tutorial, and a number-formatting tip from StackOverflow in `Order.java`. Inspired by *Papa's Pizzeria*.
 
 **Audio:** the sound files (`background.wav`, `bounce.wav`) are third-party and not our own work; their original sources were not recorded.
