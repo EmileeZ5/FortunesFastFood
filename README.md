@@ -53,7 +53,9 @@ About 3,000 lines of Java across 18 classes, with the game loop on its own threa
 Scoring is calculated in `Order.java`: topping placement and count, how well the meat is cooked, whether the drink is right, and the time taken.
 
 ## Run it
-Requires Java (JDK 8 or newer) and a screen at least **1440 × 900** pixels, since the game window has a fixed size and can't be resized. On a smaller screen, parts of the game will be cut off. From the project folder (the one containing the images and `src`):
+Requires Java (JDK 8 or newer) and a screen at least **1440 × 900** pixels, since the game window has a fixed size and can't be resized. On a smaller screen, parts of the game will be cut off.
+
+From the project folder (the one containing the images and `src`):
 
 ```bash
 javac -d bin src/*.java
