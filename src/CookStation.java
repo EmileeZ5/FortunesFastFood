@@ -202,6 +202,7 @@ public class CookStation extends Rectangle {
 							) {
 						// if there is currently no burger there, create a burger there
 						if (burgersOnStove[row][column] != null) {
+							burgersOnStove[row][column].status = "TRASHED";
 							burgersOnStove[row][column] = null;
 							numberOnStove--;
 							trashSelected = false;
